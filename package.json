@@ -1,0 +1,14 @@
+{
+  "name": "mqtt2splunk",
+  "version": "0.1.0",
+  "description": "Collect from an MQTT broken and send to Splunk via HTTP Event Collector (HEC)",
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "mqtt": "^3.0.0",
+    "needle": "^2.4.0"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
